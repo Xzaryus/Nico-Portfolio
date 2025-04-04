@@ -142,10 +142,27 @@ color: #b83fc4;
   color: hsl(0, 0%, 20%,);
 }
 
-.cardText{
+/* .cardText{
   font-family: Arial, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 30%,);
+} */
+
+#quote-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+
+#quote-refresh{
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+#quote-refresh:hover{
+  cursor: pointer;
 }
 
 #stack{
@@ -227,4 +244,13 @@ input[type="number"] {
   transform: scale(1);
   background-color: var(--secondary);
   color: var(--primary);
+}
+
+footer > p > a{
+  text-decoration: none;
+  color: #b83fc4;
+}
+
+footer > p > a:visited{
+  color: #b83fc4;
 }
