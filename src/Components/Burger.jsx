@@ -27,7 +27,7 @@ function Burger() {
     
     return (
         <>
-        <img id="burger-icon" src="src/assets/Burger.svg" alt="Menu" onClick={toggleMenu}/>
+        <img id="burger-icon" src="../assets/Burger.svg" alt="Menu" onClick={toggleMenu}/>
         <nav id="burger-menu" className={menuOpen ? "open" : ""}>
             <ul id="burger-menu-list">
             <li><a href="#top">Home</a></li>
