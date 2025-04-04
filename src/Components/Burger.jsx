@@ -1,3 +1,5 @@
+
+
 import { useEffect, useState } from "react"
 function Burger() {
     //*creates a variable called menuOpen and sets it to false, then creates a function called setMenuOpen that updates the value of menuOpen
@@ -27,7 +29,7 @@ function Burger() {
     
     return (
         <>
-        <img id="burger-icon" src="../assets/Burger.svg" alt="Menu" onClick={toggleMenu}/>
+        <img id="burger-icon" src="/Nico-Portfolio/Burger.svg" alt="Menu" onClick={toggleMenu}/>
         <nav id="burger-menu" className={menuOpen ? "open" : ""}>
             <ul id="burger-menu-list">
             <li><a href="#top">Home</a></li>
