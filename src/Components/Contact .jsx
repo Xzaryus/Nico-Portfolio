@@ -5,19 +5,19 @@ function Contact() {
         <div className="hidden" id="contact-form">
     <h2>Contact Me</h2>
     <form id="contact" action="https://formsubmit.co/nicocodes@hotmail.com" method="POST">
-        <label for="name">Name:</label>
+        <label for="name">Name:</label> <br/>
         <input type="text" name="name" id="name"/>
         <br/>
         <br/>
-        <label for="email">Email:</label>
+        <label for="email">Email:</label> <br/>
         <input type="email" name="email" id="email"/>
         <br/>
         <br/>
-        <label for="number">Phone Number:</label>
+        <label for="number">Phone Number:</label> <br/>
         <input type="number" name="number" id="number"/>
         <br/>
         <br/>
-        <label for="country">Country:</label>
+        <label for="country">Country:</label> <br/>
         <select name="country" id="country">
             <option value="UK">UK</option>
             <option value="USA">USA</option>
@@ -30,11 +30,12 @@ function Contact() {
         </select>
         <br/>
         <br/>
-        <label for="message">Message:</label>
+        <label for="message">Message:</label> <br/>
         <textarea name="message" id="message"></textarea>
         <br/>
         <br/>
         <input id="submit" type="submit" value="Submit"/>
+        <input type="hidden" name="_next" value="https://xzaryus.github.io/Nico-Portfolio/"></input>
     </form>
     </div>
     );
