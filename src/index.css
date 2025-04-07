@@ -156,14 +156,7 @@ color: #b83fc4;
   margin-bottom: 15vh;
 }
 
-#quote-refresh{
-  padding: 0.5rem;
-  border-radius: 1rem;
-}
 
-#quote-refresh:hover{
-  cursor: pointer;
-}
 
 #stack{
   display: flex;
@@ -187,6 +180,19 @@ color: #b83fc4;
   border-radius: 1rem;
 }
 
+#project-button{
+  color: var(--primary);
+  background-color: var(--secondary);
+  border : 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding : 0.5rem;
+  margin : 0 auto;
+}
+
+#project-button:hover{
+  cursor: pointer;
+}
 
 
 #contact-form{
