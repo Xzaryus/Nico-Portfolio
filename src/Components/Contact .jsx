@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="hidden" id="contact-form">
     <h2>Contact Me</h2>
-    <form id="contact" action="">
+    <form id="contact" action="https://formsubmit.co/nicocodes@hotmail.com" method="POST">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name"/>
         <br/>
@@ -13,7 +13,7 @@ function Contact() {
         <input type="email" name="email" id="email"/>
         <br/>
         <br/>
-        <label for="number">Number:</label>
+        <label for="number">Phone Number:</label>
         <input type="number" name="number" id="number"/>
         <br/>
         <br/>

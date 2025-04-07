@@ -65,6 +65,7 @@ function Quote() {
             clearInterval(newQuote);
             clearInterval(timer);
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
     return (
